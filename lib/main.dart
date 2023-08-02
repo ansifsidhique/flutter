@@ -1,7 +1,15 @@
+import 'package:ansif/summ.dart';
 import 'package:flutter/material.dart';
 
+import 'Coloumnaline.dart';
+import 'Myyapp.dart';
 import 'Textfieldexample.dart';
+import 'controller.dart';
+import 'correncyConverter.dart';
+import 'displayValue.dart';
 import 'homepage.dart';
+import 'Myy.dart';
+import 'multiplicationTable.dart';
 
 void main() {
   runApp(const MyApp());
@@ -33,7 +41,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.green),
         useMaterial3: true,
       ),
-      home: MyApp(),
+      home: Sooi(),
     );
   }
 }
